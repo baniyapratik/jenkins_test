@@ -6,7 +6,7 @@ pipeline {
           awsCodeBuild projectName: 'Jenkins_Test',
                        credentialsId: 'JenkinsTest',
                        credentialsType: 'jenkins',
-                       region: 'us-west-2',
+                       region: 'us-east-1',
                        sourceControlType: 'project'
 
         }
